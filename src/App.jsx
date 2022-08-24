@@ -25,7 +25,7 @@ export function App() {
     }, []);
 
     return (
-        <>
+        <div className={`${themeColors[theme].main_background}`}>
             <div className={`w-11/12 md:w-4/5 min-h-screen h-fit ${themeColors[theme].background} mx-auto ${themeColors[theme].main_text}`}>
                 <Navbar />
 
@@ -46,6 +46,6 @@ export function App() {
                 <Footer />
             </div>
 
-        </>
+        </div>
     )
 }

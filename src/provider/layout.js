@@ -13,7 +13,7 @@ export const LayoutProvider = (props) => {
             "skillsTitle": "Habilidades",
             "socialsContactTitle": "Redes / Contato",
             "aboutTitle": "Sobre",
-            "about": "Olá! me chamo Diego, comecei a estudar programação em 2020, sou um desenvolvedor full-stack, entusiasta no desenvolvimento de jogos e hacking. Meu primeiro contato com programação, eu tinha 13 anos e foi modificando scripts de bot do Tibia . Atualmente tenho 18 anos e moro no interior de São Paulo.",
+            "about": "Olá! me chamo Diego e comecei a estudar programação em 2020. Sou um desenvolvedor full-stack, entusiasta no desenvolvimento de jogos e cibersegurança. Meu primeiro contato com programação, eu tinha 13 anos e foi modificando scripts de bot do Tibia. Atualmente tenho 18 anos e moro no interior de São Paulo.",
             "carousel": {
                 "Imacloud": "Envie suas imagens para nuvem!",
                 "Rass": "Avalie uma música.",
@@ -29,7 +29,7 @@ export const LayoutProvider = (props) => {
             "skillsTitle": "Skills",
             "socialsContactTitle": "Socials / Contact",
             "aboutTitle": "About",
-            "about": "Hey! my name is Diego, I started studying programming in 2020, I'm a full-stack developer, enthusiast in game development and hacking. My first contact with programming, I was 13 years old and it was modifying Tibia bot scripts. I am currently 18 years old and I live in the countryside of São Paulo - Brazil.",
+            "about": "Hey! my name is Diego and I started studying programming in 2020. I'm a full-stack developer, enthusiast in game development and cybersecurity. My first contact with programming, I was 13 years old and it was modifying Tibia bot scripts. I am currently 18 years old and I live in the countryside of São Paulo - Brazil.",
             "carousel": {
                 "Imacloud": "Upload your images to the cloud!",
                 "Rass": "Rate a song.",
@@ -43,6 +43,7 @@ export const LayoutProvider = (props) => {
 
     const [themeColors] = useState({
         "dark": {
+            "main_background": "bg-[#280047]",
             "background": "bg-gradient-to-b from-[#33005a] to-[#550096]",
             "main_text": "text-amber-400",
             "navbar_text": "text-amber-400",
@@ -52,7 +53,8 @@ export const LayoutProvider = (props) => {
             "carousel_title": "text-amber-400",
         },
         "light": {
-            "background": "bg-slate-200",
+            "main_background": "bg-slate-400",
+            "background": "bg-slate-300",
             "main_text": "text-black",
             "navbar_text": "text-black",
             "en_us_flag": "text-red-500",

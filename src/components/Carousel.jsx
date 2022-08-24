@@ -24,7 +24,6 @@ function ProjectsSlide() {
 
     return (
         <div className="flex justify-center items-end h-[70vh] lg:h-[77vh] w-11/12 lg:w-10/12 mx-auto mb-20">
-
             <Carousel>
                 {images.map((i, index) => {
                     const title = i.title;
@@ -32,7 +31,7 @@ function ProjectsSlide() {
                     return (
                         <div key={index}>
                             <div className="flex items-center lg:items-end h-full lg:h-[80vh] w-full absolute z-10 cursor-auto">
-                                <div className={`flex flex-col text-md lg:text-xl justify-center items-center w-full h-full lg:h-1/2 bg-black opacity-80 lg:mb-5 ${themeColors[theme].carousel_title}`}>
+                                <div className={`flex flex-col text-md lg:text-xl justify-center items-center w-full h-full xl:h-1/2 bg-black opacity-80 lg:mb-8 ${themeColors[theme].carousel_title}`}>
                                     <span className='font-bold text-xl lg:text-3xl'>{i.title}</span>
                                     <span className='font-semibold text-white'>{desc}</span>
                                     <div className='flex mt-5 text-white'>

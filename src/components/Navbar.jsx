@@ -27,7 +27,7 @@ export function Navbar() {
     };
 
     return (
-        <nav className={`font-bold text-lg lg:text-xl text-amber-400 font-xl px-5 py-2 flex justify-between`}>
+        <nav className={`font-bold text-lg lg:text-xl text-amber-400 font-xl p-5 flex justify-between`}>
             <span>odgiedev</span>
             <div className="flex items-center w-fit">
                 {
