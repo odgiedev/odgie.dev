@@ -1,7 +1,7 @@
 import { BsBootstrap } from 'react-icons/bs';
 import { FaPhp, FaNodeJs, FaReact, FaLaravel } from 'react-icons/fa';
 import { AiOutlineConsoleSql } from 'react-icons/ai';
-import { SiMongodb, SiTailwindcss, SiNestjs } from 'react-icons/si';
+import { SiMongodb, SiTailwindcss, SiNestjs, SiTypescript } from 'react-icons/si';
 
 export function Skills() {
     return (
@@ -9,6 +9,7 @@ export function Skills() {
                 <FaPhp size={100} title="PHP" />
                 <FaLaravel size={100} title="Laravel" />
                 <FaNodeJs size={100} title="Node.js" />
+                <SiTypescript size={100} title="TypeScript" />
                 <SiNestjs size={100} title="Nest.js" />
                 <FaReact size={100} title="React" />
                 <SiTailwindcss size={100} title="Tailwind CSS" />

@@ -8,13 +8,14 @@ export const LayoutProvider = (props) => {
 
     const [text] = useState({
         "pt_br": {
-            "bio": "Desenvolvedor Full-stack",
+            "bio": "Desenvolvedor Back-end",
             "projectsTitle": "Projetos",
-            "skillsTitle": "Habilidades",
+            "skillsTitle": "Habilidades principais",
             "socialsContactTitle": "Redes / Contato",
             "aboutTitle": "Sobre",
-            "about": "Olá! me chamo Diego e comecei a estudar programação em 2020. Sou um desenvolvedor full-stack, entusiasta no desenvolvimento de jogos e cibersegurança. Meu primeiro contato com programação, eu tinha 13 anos e foi modificando scripts de bot do Tibia. Atualmente tenho 18 anos e moro no interior de São Paulo.",
+            "about": "Olá! me chamo Diego sou desenvolvedor full-stack com foco no back-end, atualmente tenho 19 anos e estou cursando o 1º semestre de ciência da computação. Comecei a estudar programação em 2020, mas tive meu primeiro contato com programação aos 13 anos modificando scripts de bot do Tibia. Entusiasta no desenvolvimento de jogos e cibersegurança e apaixonado por tecnologia desde o primeiro contato, sempre empolgado para aprender mais!",
             "carousel": {
+                "Linkiess": "Junte todas as suas redes em um só lugar!",
                 "Imacloud": "Envie suas imagens para nuvem!",
                 "Rass": "Avalie uma música.",
                 "FRC": "Imageboard / Forum",
@@ -24,13 +25,14 @@ export const LayoutProvider = (props) => {
             }
         },
         "en_us": {
-            "bio": "Full-stack Developer",
+            "bio": "Back-end developer",
             "projectsTitle": "Projects",
-            "skillsTitle": "Skills",
+            "skillsTitle": "Main skills",
             "socialsContactTitle": "Socials / Contact",
             "aboutTitle": "About",
-            "about": "Hey! my name is Diego and I started studying programming in 2020. I'm a full-stack developer, enthusiast in game development and cybersecurity. My first contact with programming, I was 13 years old and it was modifying Tibia bot scripts. I am currently 18 years old and I live in the countryside of São Paulo - Brazil.",
+            "about": "Hi! My name is Diego, I'm a full-stack developer focused on the back-end, I'm currently 19 years old and I'm studying the 1st semester of computer science. I started studying programming in 2020, but I had my first contact with programming at age 13 modifying Tibia bot scripts. Enthusiastic about game development and cybersecurity and passionate about technology from the first contact, always excited to learn more!",
             "carousel": {
+                "Linkiess": "Gather all your links in one place!",
                 "Imacloud": "Upload your images to the cloud!",
                 "Rass": "Rate a song.",
                 "FRC": "Imageboard / Forum",

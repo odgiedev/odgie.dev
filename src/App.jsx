@@ -45,7 +45,6 @@ export function App() {
 
                 <Footer />
             </div>
-
         </div>
     )
 }
